@@ -6,6 +6,10 @@
  *   Webflow.push(readyFunction);
  * ----------------------------------------------------------------------
  */
+ $(document).ready(function() {
+  initializePage();
+})
+
 var Webflow = { w: Webflow };
 Webflow.init = function () {
   'use strict';
