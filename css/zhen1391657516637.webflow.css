@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.header {
+  height: 100%;
+  min-height: 100px;
+}
+.map {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url('../images/UCSD%20Map.jpg');
+  background-size: auto;
+}
+@media (max-width: 767px) {
+  .button {
+    float: right;
+  }
+  .map {
+    position: static;
+    height: 574px;
+    background-image: url('../images/UCSD%20Map.jpg');
+    background-position: 41% 32%;
+  }
+}
+@media (max-width: 479px) {
+  .button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: none;
+    border-top-style: none;
+    background-color: #525252;
+  }
+  .button.list {
+    min-width: 0px;
+    margin-left: 5px;
+    float: left;
+    background-image: url('../images/42-photos.png');
+    background-position: 50% 50%;
+    background-size: 31px;
+    background-repeat: no-repeat;
+  }
+  .header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    height: 62px;
+    min-height: 1px;
+    background-color: #525252;
+    box-shadow: #525252 0px 0px 6px 0px;
+  }
+  .map {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .searchbar {
+    width: 265px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    float: left;
+    background-color: #bfbfbf;
+    background-image: url('../images/06-magnify.png');
+    background-position: 96% 50%;
+    background-repeat: no-repeat;
+  }
+}
