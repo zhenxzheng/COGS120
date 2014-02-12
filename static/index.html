@@ -1,40 +1,49 @@
-<!DOCTYPE html>
-<!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Thu Feb 06 2014 07:44:31 GMT+0000 (UTC) -->
-<html data-wf-site="52f3025a73df7f296b00045d">
-<head>
-  <meta charset="utf-8">
-  <title>Zhen's first site - Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/zhen1391657516637.webflow.css">
-  <script>
-    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
-  </script>
-  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
-  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="js/webflow.js"></script>
-</head>
-<body>
-  <div class="header">
-    <div class="w-form">
-      <form class="w-clearfix" name="email-form" data-name="Email Form">
-        <input class="w-input searchbar" type="text" placeholder="Search..." name="search" data-name="Search"></input>
-        <a class="button list" href="#"></a>
-        <a href="#"></a>
-      </form>
-      <div class="w-form-done">
-        <p>Thank you! Your submission has been received!</p>
-      </div>
-      <div class="w-form-fail">
-        <p>Oops! Something went wrong while submitting the form :(</p>
-      </div>
-    </div>
-  </div>
-  <div class="map"></div>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/webflow.js"></script>
-</body>
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HCI Project</title>
+		<meta charset="utf-8">
+		<meta name="newport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Loading Bootstrap -->
+		<link href="Flat-Ui-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- loading Flat UI -->
+		<link href="Flat-Ui-master/css/flat-ui.css" rel="stylesheet">
+		<link href="css/project.css" rel="stylesheet">
+		<!--<link href="css/bootstrap.css" rel="stylesheet">-->
+
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+	</head>
+
+	<body>
+		<div class="container">
+			<nav id="navbar" class="navbar-fixed-top">
+				<div class="form-group">
+					<div class="lcontainer">
+						<span class="fui-search" id="searchicon"></span>
+				    	<input type="text" data-provider="typeahead" class="form-control" id="searchbar" placeholder="Search.." data-items="4" >
+				    </div>
+				    <div class="rcontainer">
+				   		<span class="fui-list" id="listicon"></span>
+				   	</div>
+			    </div>
+			</nav>
+			<div class="map">
+				<img src="images/UCSDMap.jpg">
+			</div>
+			<div class="buttom">
+				<div class="btn navbar-fixed-bottom" id="GPS">
+					<span class="fui-location"></span>
+				</div>
+			</div>
+
+		</div>
+		<script type="text/javascript" src="Flat-Ui-master/js/bootstrap.js"></script>
+		<script src="Flat-Ui-master/js/bootstrap.min.js"></script>
+		<script src="js/project.js"></script>
+		<script src="Flat-Ui-master/js/jquery-1.8.3.min.js"></script>
+	</body>
 </html>
